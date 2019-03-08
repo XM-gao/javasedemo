@@ -31,7 +31,5 @@ public class DateApplement {
 
 
     }
-    /**
-     * 计算两个时间段的差，出来结果为：多小小时
-     */
+
 }
