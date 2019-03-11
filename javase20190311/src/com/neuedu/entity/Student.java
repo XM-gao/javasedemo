@@ -1,6 +1,6 @@
 package com.neuedu.entity;
 
-public class Student  {
+public class Student  implements Comparable<Student> {
     private int id;
     private String name;
     private String sex;
@@ -58,4 +58,11 @@ public class Student  {
                 '}';
     }
 
+    @Override
+    public int compareTo(Student o) {
+        if(this.getAge()==o.getAge()){
+            return this.getName().compareTo(o.getName());
+        }
+        return this.getAge()-o.getAge();
+    }
 }
