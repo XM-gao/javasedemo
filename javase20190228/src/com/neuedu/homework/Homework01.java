@@ -99,18 +99,6 @@ public class Homework01 {
 
         }
 
-   //打印小票
-        System.out.println("******************小票打印****************");
-        System.out.println("商品名\t单价\t购买数量\t总价");
-        int num=0;
-        double sum=0;
-        for(int i=0;i<k;i++){
-            System.out.println(products[lanzi[i]]+"\t"+prices[lanzi[i]]+"\t"+number[i]+"\t\t"+(prices[lanzi[i]]*number[i]));
-            sum+=prices[lanzi[i]]*number[i];
-            num+=number[i];
-        }
-        System.out.println("所购买的商品数量："+num);
-        System.out.println("一共消费："+sum);
 
     }
 }
