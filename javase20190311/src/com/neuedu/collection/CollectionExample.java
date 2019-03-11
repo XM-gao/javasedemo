@@ -1,6 +1,7 @@
 package com.neuedu.collection;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 public class CollectionExample {
@@ -9,8 +10,8 @@ public class CollectionExample {
      *       2：长度不定
      *
      *    集合：存放不同的数据类型的数据；长度不是固定
-     *       Collection单列值---》Set===》HashSet
-     *                              TreeSet
+     *       Collection单列值---》Set===》HashSet:底层：hash进行存储，可以为null,线程不安全
+     *                              TreeSet：底层：红黑树,不可以为null，线程不安全
      *                               等
      *                         1：数据的存放顺序和输出的顺序是不一样的，----无序
      *                         2：不允许存放重复数据

@@ -35,6 +35,8 @@ public class StudentTreeSet {
 
         treeSet.add(student1);
         treeSet.add(student2);
+
+        System.out.println(student.compareTo(student1));
         /*System.out.println(treeSet);*/
         for(Student s:treeSet) {
             System.out.println(s);

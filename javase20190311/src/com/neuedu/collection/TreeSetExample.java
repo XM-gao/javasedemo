@@ -15,6 +15,7 @@ public class TreeSetExample {
         treeSet.add("草");
         treeSet.add("里");
         treeSet.add("六");
+//        treeSet.add(null);
         System.out.println(treeSet);
     }
 }
