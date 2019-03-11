@@ -43,6 +43,12 @@ public class ListExample {
         while(iterator.hasPrevious()){
             System.out.print(iterator.previous()+"  ");
         }
+/**
+ * 1:LinkedList的练习
+ * 2：实现Student类的数据的添加输出
+ *    Student：id name age sex address ;
+ *
+ */
 
     }
 }
