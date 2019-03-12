@@ -23,7 +23,7 @@ public class OutputExample {
          */
 
         //1：文件
-        File file=new File("file02.txt");
+        File file=new File("file02.txt");//相对路径
         if(!file.exists()){
             try {
                 file.createNewFile();
