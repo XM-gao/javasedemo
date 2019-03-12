@@ -18,5 +18,11 @@ public class IOExample {
      *  处理流：ObjectInputStream  ObjectOuputStream  BufferedInputStream  BufferedOutputStream
      *
      *
+     * 3:序列化和反序列化
+     *    序列化：把对象转换为字节
+     *    反序列化：把字节转换为对象
+     *
+     *    类 接口，基本数据类型
+     *
      */
 }
