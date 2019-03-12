@@ -1,5 +1,6 @@
 package com.neuedu.homowork.second;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -11,7 +12,6 @@ public class DepositorTest {
         HashMap<String,Depositor> hashMap=new HashMap<>();
         create(hashMap);
        menu(hashMap);
-
 
 
 
